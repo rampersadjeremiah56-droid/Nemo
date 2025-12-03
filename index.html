@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Nemo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6bb5ff, #3a6da8);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        /* COVER PAGE */
+        #cover {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #cover h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        #cover button {
+            padding: 15px 40px;
+            font-size: 20px;
+            border: none;
+            border-radius: 12px;
+            background-color: rgba(255,255,255,0.85);
+            color: #3a6da8;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        #cover button:hover {
+            background-color: rgba(255,255,255,1);
+        }
+
+        /* MAIN CONTENT */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            display: none; /* hidden until "open" clicked */
+        }
+
+        /* Notes */
+        .note-card {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            padding: 18px;
+            margin-bottom: 15px;
+            backdrop-filter: blur(5px);
+        }
+        .note-card p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        /* Letter */
+        .letter-box {
+            background: white;
+            color: black;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.25);
+        }
+        .letter-box h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .letter-box p {
+            font-size: 15.5px;
+            line-height: 1.6;
+        }
+
+        /* Gallery */
+        .gallery {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.25);
+        }
+        .gallery-item p {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin: 40px 0 20px 0;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        /* Confetti */
+        .confetti {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            background: white;
+            top: -10px;
+            left: 0;
+            opacity: 0.8;
+            animation: fall 3s linear infinite;
+        }
+        @keyframes fall {
+            0% { transform: translateY(0) rotate(0deg); }
+            100% { transform: translateY(110vh) rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- COVER PAGE -->
+    <div id="cover">
+        <h1>Happy Birthday Nemo 🎉</h1>
+        <button onclick="openSite()">Open</button>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="container" id="mainContent">
+
+        <!-- NOTES -->
+        <div class="note-card"><p>🌸 Note 1 — Even from miles away, you still feel like one of the closest people in my life.</p></div>
+        <div class="note-card"><p>💙 Note 2 — Your smile and your energy always make my day better, even when you don’t notice.</p></div>
+        <div class="note-card"><p>✨ Note 3 — You’re the one person I can message at 2 a.m. and somehow you’re still awake.</p></div>
+        <div class="note-card"><p>🐾 Note 4 — Thank you for being the type of friend who makes laughter feel easy.</p></div>
+        <div class="note-card"><p>⭐ Note 5 — Your giggle is weird, but it’s my favorite weird sound in the world.</p></div>
+        <div class="note-card"><p>💫 Note 6 — Whenever I need someone, I can always count on you to be there.</p></div>
+        <div class="note-card"><p>🎀 Note 7 — No matter what happens in life, I’m proud of you more than you think.</p></div>
+        <div class="note-card"><p>🫶🏻 Note 8 — Our princess is adorable but I somehow forgot her name 😭</p></div>
+        <div class="note-card"><p>💐 Note 9 — You don’t see how amazing you are, but I wish you could see yourself the way I see you.</p></div>
+        <div class="note-card"><p>🌙 Note 10 — Thank you for being my last and only best friend.</p></div>
+
+        <!-- LETTER -->
+        <div class="letter-box">
+            <h2>A Birthday Letter to My Best Friend, Nemo</h2>
+            <p>
+Nemo,<br><br>
+I don’t even know where to start, so I guess I’ll start from the beginning, the day we met on Free Fire. It’s crazy how something so random turned into one of the best parts of my life. We were just in the same guild, playing for fun, and somehow, we ended up playing together almost every day. Then we started calling, making fun of each other, laughing at everything… and honestly, that was the start of our friendship.<br><br>
+We moved from the game to WhatsApp, and from that day, everything changed. You became the person I talk to the most, the one I go to when I need company, the one who’s always awake at night (even though you SAY you're going to sleep but then send me a TikTok an hour later, explain that because that’s not the kind of sleeping I know of).<br><br>
+And don’t think I forget things. Somehow my brain remembers so much about you… even though I don’t remember the name of your cat right now (I swear my brain blanked; I’ll fix it later 💀). But she’s cute as hell and we both love her.<br><br>
+You became my best friend without me even realizing it. And honestly? You’re probably the last best friend I’m ever gonna have. I’m done. No more. I’m keeping you as the final one.<br><br>
+You’re joyful, happy, full of life, and you have a beautiful smile.<br>
+Your giggle? Weird? Yes?<br>
+Do I like it? Yes.<br>
+Do I laugh at it? Also, yes.<br>
+You’re someone I can count on, day or night. Whenever I need someone, you’re there. Even if you don’t talk about your problems with me (idk if that’s good or bad), I still just want the best for you. I care about you a lot, even if I’m not the best at showing my feelings.<br><br>
+When you don’t eat, it actually bothers me. When you put yourself down, it annoys me. When you don’t believe in yourself, it makes me want to shake you like, “BRO WAKE UP YOU’RE AMAZING.”<br><br>
+Because listen,<br>
+You have so many pros:<br>
+You’re joyful, happy, kind (not to me but I still see it), you have a bright smile, elite taste in music, an outstanding and magnificent personality. You’re a crybaby, you love sports, your cat, and Billie. Can’t forget Billieee. You make people laugh, you bring smiles, and you’re someone I’m proud of.<br><br>
+Your cons are only because of how you think about yourself:<br>
+You don’t believe in yourself<br>
+You think you’re fat when you’re not<br>
+You base yourself off other people<br>
+You’re not proud of yourself<br>
+DONT wait for compliments instead give them to yourself, you don’t need someone.<br><br>
+But Nemo, you only get ONE life.<br>
+Stop comparing yourself to others.<br>
+Compare yourself to who you were yesterday and grow from that.<br>
+Trust yourself.<br>
+Believe in yourself.<br>
+Be proud of yourself.<br>
+You deserve that.<br><br>
+Right now, my life isn’t going that great, and I don’t tell people these things, not even you. But forget that. This time is all about you.<br>
+Your birthday.<br>
+Your happiness.<br>
+Your smile.<br>
+Your life.<br><br>
+I don’t know what gifts you’re expecting, but I hope you get everything you want even seeing Billie.<br>
+I can’t give you much right now, but I can give you this letter, this website, my time, and the fact that you’re the second person on my mind always.<br><br>
+From December 2nd to the 12th, I’ll be busy with exams, so I might not be able to spend as much time with you. But I promise I’ll find a way to get at least one day to spend with you properly. Don’t worry, I always find a way.<br><br>
+I hope your birthday and your Christmas are filled with nothing but joy, happiness, and only happy tears. I don’t wanna see you crying for anything sad.<br><br>
+Happy birthday, Nemo.<br>
+Thank you for being my best friend.<br>
+Thank you for being you.<br><br>
+- Jeremiah
+            </p>
+        </div>
+
+        <!-- GALLERY -->
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/img1.jpg">
+                <p>the day we started texting</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/img2.jpg">
+                <p>our cutie pie</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/img3.jpg">
+                <p>longest call I ever been in</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/img4.jpg">
+                <p>US</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/img5.jpg">
+                <p>caught you</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/img6.jpg">
+                <p>can't beat me</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/img7.jpg">
+                <p>the song that remains me of you</p>
+            </div>
+        </div>
+
+        <footer>
+            Made with ❤️ by Jeremiah
+        </footer>
+
+    </div>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Show main content after pressing open
+        function openSite() {
+            document.getElementById('cover').style.display = 'none';
+            document.getElementById('mainContent').style.display = 'block';
+            createConfetti();
+        }
+
+        // Confetti
+        function createConfetti() {
+            for (let i = 0; i < 25; i++) {
+                let c = document.createElement("div");
+                c.classList.add("confetti");
+                c.style.left = Math.random() * window.innerWidth + "px";
+                c.style.animationDelay = Math.random() * 2 + "s";
+                document.body.appendChild(c);
+            }
+        }
+    </script>
+
+</body>
+</html>
